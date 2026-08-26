@@ -1,0 +1,9 @@
+{
+  "open": {"unit": "price", "available_lag": 0, "description": "当日开盘价，收盘决策时已经可见"},
+  "high": {"unit": "price", "available_lag": 0, "description": "当日最高价，收盘决策时已经可见"},
+  "low": {"unit": "price", "available_lag": 0, "description": "当日最低价，收盘决策时已经可见"},
+  "close": {"unit": "price", "available_lag": 0, "description": "当日收盘价，收盘完成后可见"},
+  "volume": {"unit": "shares", "available_lag": 0, "description": "当日成交量"},
+  "amount": {"unit": "currency", "available_lag": 0, "description": "当日成交额"},
+  "turnover_rate": {"unit": "ratio", "available_lag": 1, "description": "换手率；数据源若盘后发布则至少滞后一日"}
+}
